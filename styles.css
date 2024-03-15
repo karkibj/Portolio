@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+body {
+    /* background-color: whitesmoke; */
+    background-color: #000;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* css for nav bar */
+.navbar{
+    background-color: #111111a0;
+    height: 60px;
+    width: auto;
+    position: sticky; 
+    border-bottom: 2px solid black;
+    }
+    
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+ li{
+    display: inline-block;
+    position: relative;
+    margin-right: 80px;
+    padding-top: 20px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+    
+   
+}
+ul li a:hover{
+    color: aqua;
+    font-size: larger;
+
+    
+    
+}
+
+/* css for the section of landing part  */
+#landingpage{
+    height: 95vh;
+    width: auto;
+    
+}
+
+
+/* css for main contents (left side texts and right side photo) */
+.left h1{
+    margin-top: 100px;
+    font-size: 7rem;
+    margin-left: 50px;
+
+}
+.left p{
+    margin-left: 50px;
+    border-left:4px solid purple ;
+    padding-left: 10px;
+
+}
+
+.left p:hover{
+    font-size: 1.3em;
+    transition-property: all;
+    transform-style: flat;
+    transition-timing-function: ease-in;
+}
+
+.left{
+    display: inline-block;
+    margin-left: 50px;
+    width: 900px;
+    margin-top: 20px;
+}
+
+.right{
+    display: inline-block; 
+    float: inline-end;
+    margin-right: 50px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+img{
+    margin-top: 40px;
+    cursor: pointer;
+   
+    
+}
+
+/* css to yellow my name Bizay Karki */
+.blue{
+    color: yellow;
+}
+
+
+
+
+/* css for social media logos */
+#links
+{ 
+    margin-top: 30px;
+    height: 25%;
+    width: 30%;
+    /* border: 3px solid rgb(168, 50, 96); */
+    position: relative;
+    margin-left: 80px;
+
+    display: flex;
+    justify-content: space-around;
+   
+    
+
+    
+}
+#links a img{
+    height: 90px;
+    width: 90px;
+}
+#links a img:hover{
+    background-color: tomato;
+    
+}
+
+
+
+/* css for About me secton  */
+
+/* css for photo */
+.moreaboutme{
+    height: 300px;
+    width: 200px;
+    background-color: green;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 200px;
+    margin-top: 25px;
+    background-image: url(/images/Bizay.JPG);
+    border-radius: 10px ;
+    background-size: cover;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+
+
+/* main container of interest exerience and education div  */
+
+#detail{
+    
+   
+    position: absolute;
+    /* border: 2px solid orange; */
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 1000px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+     
+    
+
+}
+.box{
+    height: 90%;
+    width: 35%;
+    display: inline-block;
+    border-right: 3px solid skyblue;
+}
+
+
+
+.box ul li{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding-left: 30px;
+    
+   
+}
+
+
+#title{
+
+text-align: center;
+padding-bottom: 30px;
+text-decoration: green underline;
+
+}
+
+
+#detail h1{
+    text-align: center;
+    color:salmon;
+    /* background-color: #3498db; */
+    
+}
+#about h1:hover{
+    font-size: larger;
+   
+}
+
+#Education table {
+    margin-top: 10px;
+
+}
+
+
+
+
+
+/* contact me part  */
+#contact{
+    margin-top: 10px;
+}
+
+#contact h1{
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: green underline;
+}
+
+
+/* main part for form  */
+.formcss{
+    background-origin: border-box;
+    text-align: center;
+    background-color: #B0B1B0ff;
+    border: 2px solid green;
+    width: 40%;
+    padding-top: 30px;
+    margin: auto;
+    
+  
+}
+form{
+    background-color: #B0B1B0ff;
+
+}
+
+
+input[type=text],
+input[type=email],
+input[type=number],
+select,
+textarea
+{
+    padding: 20px;
+    margin-top: 10px;
+    width: 80%;
+    background-color:  white;
+    
+  
+}
+
+
+
+.labels{
+    background-color: #B0B1B0ff;
+    color: #000;
+    
+}
+
+#button{
+    background-color: green;
+    width: 20%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button :hover{
+    background-color: none;
+    font-size: larger;
+  
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #111111a0
+}
