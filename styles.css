@@ -19,11 +19,25 @@ html{
 .navbar{
     background-color: #111111a0;
     height: 60px;
-    width: auto;
     position: sticky; 
     border-bottom: 2px solid black;
-    }
+    /* fixing nav bar at top  */
+    top: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
     
+    }
+
+#home{
+    height: 40px;
+    width: 40px; 
+    margin-top: 10px;
+    padding-right: 40px;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
 ul{
     list-style: none;
     text-align: center;
@@ -139,7 +153,9 @@ img{
 
 
 /* css for About me secton  */
-
+#about{
+    padding-top: 70px;
+}
 /* css for photo */
 .moreaboutme{
     height: 300px;
@@ -228,7 +244,7 @@ text-decoration: green underline;
 
 /* contact me part  */
 #contact{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #contact h1{
@@ -244,15 +260,12 @@ text-decoration: green underline;
     text-align: center;
     background-color: #B0B1B0ff;
     border: 2px solid green;
-    width: 40%;
+    width: 35%;
+    height: auto;
     padding-top: 30px;
     margin: auto;
     
   
-}
-form{
-    background-color: #B0B1B0ff;
-
 }
 
 
@@ -266,6 +279,9 @@ textarea
     margin-top: 10px;
     width: 80%;
     background-color:  white;
+    box-sizing: border-box;
+    color: #0000007e;
+    font-family: Arial, Helvetica, sans-serif;
     
   
 }
@@ -275,6 +291,7 @@ textarea
 .labels{
     background-color: #B0B1B0ff;
     color: #000;
+    font-weight: bold;
     
 }
 
@@ -285,11 +302,7 @@ textarea
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-}
-#button :hover{
-    background-color: none;
-    font-size: larger;
-  
+    font-weight: bold;
 }
 
 footer{
@@ -297,5 +310,6 @@ footer{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #111111a0
+    background-color: #111111a0;
+
 }
